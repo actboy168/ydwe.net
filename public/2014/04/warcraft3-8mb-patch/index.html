@@ -1,0 +1,31 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 教你突破联机地图大小8MB限制 · YDWE官方博客</title><meta name="description" content="教你突破联机地图大小8MB限制 - actboy168"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://www.ydwe.net/atom.xml" title="YDWE官方博客"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">主页</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">目录</a></li><li class="nav-list-item"><a href="/download.html" target="_self" class="nav-list-link">下载</a></li><li class="nav-list-item"><a href="https://github.com/actboy168/YDWE" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">教你突破联机地图大小8MB限制</h1><div class="post-info">Apr 13, 2014</div><div class="post-content"><p>##序言<br>不知道为什么暴雪要对联机地图的大小加以限制。不仅限制了地图大小，还限制了地图作者的创意。在魔兽渐渐淡出的日子里，暴雪终于想到了这个限制实在是太苛刻了，在众多地图作者，特别是dota作者的要求下，将这个限制放宽到了8MB。遗憾的是，尽管限制放宽了，依旧是治标不治本，太多的地图，8MB根本不够用。在1.20的年代，曾经有人做出了突破4MB的补丁（感谢地精研究院）。但到了现在的后1.24时代，老补丁不能用，网上搜索也找不到半点相关的信息。鉴于暴雪已经不关心魔兽了，我们非常有必要自力更生啊，自己动手，丰衣足食。</p>
+<a id="more"></a>
+<p>##动手步骤<br>下面我们开始动手。我们需要的工具很简单：<br>一个十六进制编辑器（例如WinHex，Hexworkshop，Ultraedit之类）</p>
+<p>准备好工具后，正式开始我们的修改。修改步骤如下：</p>
+<ul>
+<li>备份game.dll</li>
+<li>用十六进制编辑器打开game.dll</li>
+<li>搜索所有的十六进制值 3D 00 00 80 00，修改为3D FF FF FF FF</li>
+<li>保存game.dll</li>
+</ul>
+<p>完毕，很简单吧。1.24e版本的game.dll一共要替换3处地方。<br>上述方法适用于1.24a以及以后的所有魔兽版本。</p>
+<p>##附注</p>
+<ul>
+<li>如果你想修改1.22~1.23的魔兽（大小限制是4MB），请把搜索的十六进制改成3D 00 00 40 00，替换的值不变。（未测试）</li>
+<li>如果你想修改1.21b以及以前的魔兽，请自行在网上搜索补丁。</li>
+<li>对于大于限制的地图，只有当参与联机的所有人都使用修改后的game.dll的情况下，才能正常联机。小于大小限制的地图联机无此要求，也就是说对于这类图，修改后的魔兽可以与原版的正常联机。</li>
+<li>使用修改的game.dll有可能会被平台判定为作弊行为，或者会不起作用（因平台可能会载入自己的game.dll），因此如果在平台上玩请小心。</li>
+</ul>
+<p>##编后语<br>本文成文于两年前，而今已经有不少平台支持本补丁了，比如11平台的大地图房间，HF貌似也有某些房间支持。如果你想让你的ydwe也支持本补丁也是一件很简单的事情，ydwe支持魔兽补丁功能，你只需要在share/patch目录下新建一个目录(比如就叫8mb补丁)，然后按本文把修改过的game.dll放到这个目录下，再从配置程序中选择加载此补丁即可。</p>
+</div></article></div></main><footer><div class="paginator"><a href="/2014/04/lua-lesson/" class="prev">上一篇</a><a href="/2014/04/php-keng-die/" class="next">下一篇</a></div><div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div><script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script><script>var url = document.location.href;
+if (url.substring(url.length-1) == '/') {
+    url = url.substring(0, url.length-1)
+};
+var cloudTieConfig = {
+  url: url,
+  sourceId: "",
+  productKey: "04f8b460aaca4ca08df51bb3e40f6025",
+  target: "cloud-tie-wrapper"
+};
+var yunManualLoad = true;
+Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);</script><div class="copyright"><p>© 2014 - 2017 <a href="http://www.ydwe.net">actboy168</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;e=o.createElement(i);r=o.getElementsByTagName(i)[0];e.src='//www.google-analytics.com/analytics.js';r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));ga('create',"UA-65933410-1",'auto');ga('send','pageview');</script></body></html>
