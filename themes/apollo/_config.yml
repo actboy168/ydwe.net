@@ -1,0 +1,20 @@
+menu:
+    主页: /
+    目录: /archives/
+    下载: /download.html
+    GitHub: https://github.com/actboy168/YDWE
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: UA-65933410-1
+
+# Copyright Infomation
+startyear: 2014

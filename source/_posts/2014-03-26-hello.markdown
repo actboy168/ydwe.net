@@ -1,0 +1,12 @@
+---
+layout: post
+title: "hello"
+date: 2014-03-26 07:53:18 +0000
+comments: true
+categories: 
+---
+
+
+这是个悲痛的消息，由于某些迷の原因，论坛君他已经阵亡了，如果你还想抢救一下他，请访问[这里](http://bbs.ydwe.net/)。
+
+这就是我们的新家，你依然可以从[这里](http://www.ydwe.net/download.html)，获取最新的YDWE，感谢大家一直以来对我们的支持。
