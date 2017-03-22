@@ -28,8 +28,12 @@ if theme.disqus
 .cloud-tie-wrapper(id="cloud-tie-wrapper")
 script(src='https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js')
 script.
+    var url = document.location.href;
+    if (url.substring(url.length-1) == '/') {
+        url = url.substring(0, url.length-1)
+    };
     var cloudTieConfig = {
-      url: document.location.href, 
+      url: url,
       sourceId: "",
       productKey: "04f8b460aaca4ca08df51bb3e40f6025",
       target: "cloud-tie-wrapper"
