@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ydwe.net/"/>
-  <updated>2017-03-01T06:49:11.968Z</updated>
+  <updated>2017-03-22T13:29:37.557Z</updated>
   <id>http://www.ydwe.net/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新的主题</title>
+    <link href="http://www.ydwe.net/2017/03/new-theme/"/>
+    <id>http://www.ydwe.net/2017/03/new-theme/</id>
+    <published>2017-03-22T13:19:00.000Z</published>
+    <updated>2017-03-22T13:29:37.557Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天得知“多说评论”要跪了，所以花了点时间把评论系统迁移到了“网易云跟帖”。又顺便把博客引擎从<strong>Octopress</strong>切换到了<strong>Hexo</strong>。毕竟只是为了一个博客装了个ruby，还是挺麻烦的。如果可以甚至我想换成lua的引擎，可惜没有找到比较靠谱的。</p>
+<a id="more"></a>
+<p>“网易云跟帖”可以直接导入“多说评论”的数据，所以迁移的过程还是比较简单的。只是碰到一个小问题，在多说导出的数据中，url的最后是没有’/‘的，但实际博客中的url最后都带了’/‘，网易无法识别这种情况。所以我只能手动帮网易去掉了这个’/‘。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">.cloud-tie-wrapper(id=<span class="string">"cloud-tie-wrapper"</span>)</div><div class="line">script(src=<span class="string">'https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js'</span>)</div><div class="line">script.</div><div class="line">    var url = <span class="built_in">document</span>.location.href;</div><div class="line">    <span class="keyword">if</span> (url.substring(url.length<span class="number">-1</span>) == <span class="string">'/'</span>) &#123;</div><div class="line">        url = url.substring(<span class="number">0</span>, url.length<span class="number">-1</span>)</div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">var</span> cloudTieConfig = &#123;</div><div class="line">      <span class="attr">url</span>: url,</div><div class="line">      <span class="attr">sourceId</span>: <span class="string">""</span>,</div><div class="line">      <span class="attr">productKey</span>: <span class="string">"04f8b460aaca4ca08df51bb3e40f6025"</span>,</div><div class="line">      <span class="attr">target</span>: <span class="string">"cloud-tie-wrapper"</span></div><div class="line">    &#125;;</div><div class="line">    <span class="keyword">var</span> yunManualLoad = <span class="literal">true</span>;</div><div class="line">    Tie.loader(<span class="string">"aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s"</span>, <span class="literal">true</span>);</div></pre></td></tr></table></figure>
+<p>因为换了博客引擎，所以主题也只能换了一个，为了配合这个简洁风格的主题，我还特意做个了一个像素风的logo。这个主题可能比较简陋，也可能没原来的好看，但我觉得挺符合我目前心境和YDWE目前的状态的。内容比较外观重要不是吗？</p>
+<p><img src="/favicon.png" alt="logo"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天得知“多说评论”要跪了，所以花了点时间把评论系统迁移到了“网易云跟帖”。又顺便把博客引擎从&lt;strong&gt;Octopress&lt;/strong&gt;切换到了&lt;strong&gt;Hexo&lt;/strong&gt;。毕竟只是为了一个博客装了个ruby，还是挺麻烦的。如果可以甚至我想换成lua的引擎，可惜没有找到比较靠谱的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Other" scheme="http://www.ydwe.net/categories/Other/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>W3x2Lni 报告说明</title>

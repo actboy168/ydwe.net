@@ -1,0 +1,36 @@
+---
+layout: post
+title: "新的主题"
+date: 2017-03-22 21:19:00 +0800
+comments: true
+author: actboy168
+categories: Other
+---
+
+今天得知“多说评论”要跪了，所以花了点时间把评论系统迁移到了“网易云跟帖”。又顺便把博客引擎从**Octopress**切换到了**Hexo**。毕竟只是为了一个博客装了个ruby，还是挺麻烦的。如果可以甚至我想换成lua的引擎，可惜没有找到比较靠谱的。
+
+<!-- more -->
+
+“网易云跟帖”可以直接导入“多说评论”的数据，所以迁移的过程还是比较简单的。只是碰到一个小问题，在多说导出的数据中，url的最后是没有'/'的，但实际博客中的url最后都带了'/'，网易无法识别这种情况。所以我只能手动帮网易去掉了这个'/'。
+
+```js
+.cloud-tie-wrapper(id="cloud-tie-wrapper")
+script(src='https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js')
+script.
+    var url = document.location.href;
+    if (url.substring(url.length-1) == '/') {
+        url = url.substring(0, url.length-1)
+    };
+    var cloudTieConfig = {
+      url: url,
+      sourceId: "",
+      productKey: "04f8b460aaca4ca08df51bb3e40f6025",
+      target: "cloud-tie-wrapper"
+    };
+    var yunManualLoad = true;
+    Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+```
+
+因为换了博客引擎，所以主题也只能换了一个，为了配合这个简洁风格的主题，我还特意做个了一个像素风的logo。这个主题可能比较简陋，也可能没原来的好看，但我觉得挺符合我目前心境和YDWE目前的状态的。内容比较外观重要不是吗？
+
+![logo](/favicon.png)
