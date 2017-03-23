@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "404 Error"
+title: "找不到页面"
 date: 2014-03-26 07:53:18 +0000
-comments: false
+comments: true
 sharing: false
 footer: false
 ---
+
+[返回主页](/)
