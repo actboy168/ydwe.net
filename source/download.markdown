@@ -7,14 +7,16 @@ sharing: true
 footer: true
 ---
 
-#[1.31.5测试版](http://pan.baidu.com/s/1qY0gHvI)
+#[1.31.6测试版](http://pan.baidu.com/s/1kU74ed5)
 
-* **New** 新增11平台的RPG计费UI
-* **Chg** 给部分物编属性名加上了'%'
-* **Fix** 修正1.27b无法多人测试的问题
-* **Fix** 修正注入重复代码的问题
-* **Fix** 修正修改魔兽路径需要重启编辑器的问题
-
+* **New** Lua引擎支持utf8库和io库的部分函数
+* **Chg** 优化局域网测试时服务器的启动时间
+* **Chg** Lua引擎的storm库改用io库实现，并已经被标记为过时的特性
+* **Fix** 修正物编读取遍历表时Key变成小写的问题
+* **Fix** 修正部分UI次序不对的问题
+* **Fix** 修正CRT有时候没有正确加载的问题
+* **Fix** 修正有时候会保存两次的问题
+* **Fix** 修正运行触发器UI无法保存的问题
 
 #[1.30.6正式版](http://pan.baidu.com/s/1bM6SvO)
 
