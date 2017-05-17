@@ -7,16 +7,17 @@ sharing: true
 footer: true
 ---
 
-#[1.31.6测试版](http://pan.baidu.com/s/1kU74ed5)
+#[1.31.6测试版](http://pan.baidu.com/s/1dFuzWYl)
 
-* **New** Lua引擎支持utf8库和io库的部分函数
-* **Chg** 优化局域网测试时服务器的启动时间
-* **Chg** Lua引擎的storm库改用io库实现，并已经被标记为过时的特性
-* **Fix** 修正物编读取遍历表时Key变成小写的问题
-* **Fix** 修正部分UI次序不对的问题
-* **Fix** 修正CRT有时候没有正确加载的问题
-* **Fix** 修正有时候会保存两次的问题
-* **Fix** 修正运行触发器UI无法保存的问题
+* **New** Lua引擎新增ai库，包含了所有的native ai函数(但不保证一定可用，就如在jass里一样)
+* **New** Lua引擎支持在config里使用
+* **Chg** 本地部署UCRT
+* **Chg** 更新lua调试器到0.1.0
+* **Fix** 修正使用了错误版本的CRT的问题
+* **Fix** 修正虚拟mpq的优先级比地图本身大的问题
+* **Fix** 修正没有使用物编写入也会重建地图的问题
+* **Fix** 修正Lua引擎对sleep的处理不正确的问题
+* **Fix** 修正Lua引擎对超大整数处理不正确的问题
 
 #[1.30.6正式版](http://pan.baidu.com/s/1bM6SvO)
 
