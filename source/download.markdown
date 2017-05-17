@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-#[1.31.6测试版](http://pan.baidu.com/s/1dFuzWYl)
+#[1.31.7测试版](http://pan.baidu.com/s/1dFuzWYl)
 
 * **New** Lua引擎新增ai库，包含了所有的native ai函数(但不保证一定可用，就如在jass里一样)
 * **New** Lua引擎支持在config里使用
