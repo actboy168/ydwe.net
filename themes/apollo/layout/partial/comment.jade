@@ -30,7 +30,7 @@ link(rel='stylesheet' href='https://imsun.github.io/gitment/style/default.css')
 script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
 script.
     var gitment = new Gitment({
-        id: '#{page.path}',
+        id: window.location.pathname,
         owner: 'actboy168@gmail.com',
         repo: 'ydwe.net',
         oauth: {
