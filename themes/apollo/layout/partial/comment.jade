@@ -25,18 +25,17 @@ if theme.disqus
         })();
     script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
 
-.cloud-tie-wrapper(id="cloud-tie-wrapper")
-script(src='https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js')
+div(id='container')
+link(rel='stylesheet' href='https://imsun.github.io/gitment/style/default.css')
+script(src='https://imsun.github.io/gitment/dist/gitment.browser.js')
 script.
-    var url = document.location.href;
-    if (url.substring(url.length-1) == '/') {
-        url = url.substring(0, url.length-1)
-    };
-    var cloudTieConfig = {
-      url: url,
-      sourceId: "",
-      productKey: "04f8b460aaca4ca08df51bb3e40f6025",
-      target: "cloud-tie-wrapper"
-    };
-    var yunManualLoad = true;
-    Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+    var gitment = new Gitment({
+        id: '#{page.path}',
+        owner: 'actboy168@gmail.com',
+        repo: 'https://github.com/actboy168/ydwe.net',
+        oauth: {
+            client_id: '1ddd3c4af07a7779f7a7',
+            client_secret: 'd9f1c57a70a1750012bd26ac78c3db3488db59e9',
+        },
+    });
+    gitment.render('container')
