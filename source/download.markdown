@@ -7,17 +7,13 @@ sharing: true
 footer: true
 ---
 
-#[1.31.7正式版](http://pan.baidu.com/s/1dFuzWYl)
+#[1.31.8正式版](http://pan.baidu.com/s/1pLBeFrX)
 
-* **New** Lua引擎新增ai库，包含了所有的native ai函数(但不保证一定可用，就如在jass里一样)
-* **New** Lua引擎支持在config里使用
-* **Chg** 本地部署UCRT
-* **Chg** 更新lua调试器到0.1.0
-* **Fix** 修正使用了错误版本的CRT的问题
-* **Fix** 修正虚拟mpq的优先级比地图本身大的问题
-* **Fix** 修正没有使用物编写入也会重建地图的问题
-* **Fix** 修正Lua引擎对sleep的处理不正确的问题
-* **Fix** 修正Lua引擎对超大整数处理不正确的问题
+* **New** 物便读取可以从技能对象中读取code
+* **Chg** 物便读取会忽略lni文件
+* **Chg** 自动清理万能属性用的哈希表数据
+* **Fix** 修正物编提示会被逗号截断的问题
+* **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 #[1.30.6正式版](http://pan.baidu.com/s/1bM6SvO)
 
