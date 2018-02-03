@@ -32,10 +32,11 @@ footer: true
 * **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 
-#[W3x2Lni v1.8.4](https://pan.baidu.com/s/1eSLBrhS)
+#[W3x2Lni v1.9.0](https://pan.baidu.com/s/1mj0mjVE)
 
-* 地图优化和管理工具
-
+* **New** 支持游戏数据设置为"对战地图"
+* **Fix** 修正slk后自定义单位名丢失的问题
+    
 ---
 
 <br><br>
