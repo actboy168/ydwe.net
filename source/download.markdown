@@ -7,7 +7,14 @@ sharing: true
 footer: true
 ---
 
-#[1.32.2测试版](https://pan.baidu.com/s/15qu5qVkim_MiqI0lUtcCGw)
+#[1.32.3测试版](https://pan.baidu.com/s/1XtJmUUfI8ufp98lI2NjrUg)
+
+* **Fix** 修正插件加载失败的问题
+* **Fix** 修正Vista无非运行的问题
+* **Fix** 修正调试器和lua引擎的兼容问题
+* **Fix** 修正几个slk优化的错误
+
+#1.32.2测试版
 
 * **New** 测试地图时，支持自动将地图slk化
 * **New** 支持Lni格式地图的测试
