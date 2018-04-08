@@ -40,7 +40,14 @@ footer: true
 * **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 
-#[W3x2Lni v2.0.0](https://pan.baidu.com/s/1_JZkn2UZagVELivMwHlPZA)
+#[W3x2Lni v2.0.1](https://pan.baidu.com/s/1LYgWWnkL3hMzoTiZWzRBYQ)
+
+* **FIX** 修正和Vista的兼容问题
+* **FIX** 修正非法ID的单位在slk后丢失的问题
+* **FIX** 修正部分技能文本可能丢失的问题
+* **FIX** 修正长文本在lni转obj后丢失的问题
+
+#W3x2Lni v2.0.0
 
 * **New** lni时会转换触发器
 * **New** 支持插件
