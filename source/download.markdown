@@ -40,29 +40,19 @@ footer: true
 * **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 
-#[W3x2Lni v2.0.1](https://pan.baidu.com/s/1LYgWWnkL3hMzoTiZWzRBYQ)
+#[W3x2Lni v2.1.1]( https://pan.baidu.com/s/1ap97Xp2S4QI0Liz0_zKcwg)
 
-* **FIX** 修正和Vista的兼容问题
-* **FIX** 修正非法ID的单位在slk后丢失的问题
-* **FIX** 修正部分技能文本可能丢失的问题
-* **FIX** 修正长文本在lni转obj后丢失的问题
-
-#W3x2Lni v2.0.0
-
-* **New** lni时会转换触发器
-* **New** 支持插件
-* **New** lni时可以选择不导出lua脚本
-* **Chg** 修改了lni目录结构
-* **Chg** 不再产生多余的txt.ini文件
-* **Chg** 模板lni显示值为空字符串的属性
-* **Chg** 转换地图时给脚本加上时间戳
-* **Chg** 转换地图时不能拖入新的地图
-* **Fix** 修正"使用科技"没有被引用的问题
-* **Fix** 修正导入列表可能不正确的问题
-* **Fix** 修正读取slk时数据可能重置的问题
-* **Fix** 修正过长的文本可能不正确的问题
-* **Fix** 修正等价物文本可能丢失的问题
+* **FIX** 修正slk时丢失部分平衡常数的问题
+* **FIX** 修正obj时显示平衡常数有修改的问题
+* **FIX** 修正报告的一些错误
     
+#W3x2Lni v2.1.0
+
+* **NEW** 支持多语言
+* **NEW** 支持命令行
+* **FIX** 修正部分buff在简化后丢失的问题
+* **FIX** 修正slk后无图标buff的显示问题
+     
 ---
 
 <br><br>
