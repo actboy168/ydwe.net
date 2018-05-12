@@ -28,18 +28,13 @@ footer: true
 * **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 
-#[W3x2Lni v2.1.1]( https://pan.baidu.com/s/1ap97Xp2S4QI0Liz0_zKcwg)
-
-* **FIX** 修正slk时丢失部分平衡常数的问题
-* **FIX** 修正obj时显示平衡常数有修改的问题
-* **FIX** 修正报告的一些错误
+#[W3x2Lni v2.2](https://pan.baidu.com/s/1FFpBbjNIrPDz6vTBMJu3Wg)
     
-#W3x2Lni v2.1.0
-
-* **NEW** 支持多语言
-* **NEW** 支持命令行
-* **FIX** 修正部分buff在简化后丢失的问题
-* **FIX** 修正slk后无图标buff的显示问题
+* **NEW** 支持War3 1.29的数据提取
+* **NEW** 数据文件增加版本号
+* **FIX** 修正lni时重名触发器丢失的问题
+* **FIX** 修正slk时极端情况下的报错
+* **FIX** 修正优化脚本的实数精度问题
      
 ---
 
