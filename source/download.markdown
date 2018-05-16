@@ -28,14 +28,17 @@ footer: true
 * **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 
-#[W3x2Lni v2.2](https://pan.baidu.com/s/1FFpBbjNIrPDz6vTBMJu3Wg)
-    
-* **NEW** 支持War3 1.29的数据提取
-* **NEW** 数据文件增加版本号
-* **FIX** 修正lni时重名触发器丢失的问题
-* **FIX** 修正slk时极端情况下的报错
-* **FIX** 修正优化脚本的实数精度问题
-     
+#[W3x2Lni v2.3](https://pan.baidu.com/s/1_cORHulF3IYiJdnVvv9yuw)
+
+* **NEW** 重写GUI
+* **CHG** 不会转换无法识别的Lni地图
+* **CHG** 配置了错误的数据目录时不会转换
+* **FIX** 修正ID冲突的对象文本被覆盖的问题
+* **FIX** 修正无法打开目录格式地图的问题
+* **FIX** 修正未修改的自定义技能行为不一致的问题
+* **FIX** 修正脚本无法引用特殊ID对象的问题
+* **FIX** 修正非法ID的技能丢失的问题
+
 ---
 
 <br><br>
