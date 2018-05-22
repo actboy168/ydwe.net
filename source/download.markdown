@@ -28,8 +28,21 @@ footer: true
 * **Fix** 修正万能属性可能会导致slk优化后出错的问题
 
 
-#[W3x2Lni v2.3](https://pan.baidu.com/s/1_cORHulF3IYiJdnVvv9yuw)
+#[W3x2Lni v2.3.2](https://pan.baidu.com/s/1bnDtth7qDaCQ1B-bS00wLA)
 
+* **FIX** 修正lni时触发器中的文本损坏的问题
+* **FIX** 修正slk时某些技能被错误移除的问题
+* **FIX** 修正科技需求和科技需求值不正确的问题
+
+#[W3x2Lni v2.3.1]
+
+* **NEW** GUI支持提取War3数据文件
+* **FIX** 修正路径不能带空格的问题
+* **FIX** 修正obj时丢失部分物编文本的问题
+* **FIX** 修正slk时科技的tooltip问题
+
+#[W3x2Lni v2.3.0]
+ 
 * **NEW** 重写GUI
 * **CHG** 不会转换无法识别的Lni地图
 * **CHG** 配置了错误的数据目录时不会转换
