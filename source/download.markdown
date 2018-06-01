@@ -58,4 +58,4 @@ footer: true
 
 * [历史版本](http://pan.baidu.com/share/link?shareid=401650&uk=3389291567)
 * [魔兽补丁](http://pan.baidu.com/share/link?shareid=401621&uk=3389291567)
-* [解压软件](http://sparanoid.com/lab/7z/)
+
