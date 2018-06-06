@@ -7,17 +7,19 @@ sharing: true
 footer: true
 ---
 
-#[1.32.4测试版](https://pan.baidu.com/s/1lRZNFGDw5P2ZRW2ttgyqbg)
+#[1.32.5测试版](https://pan.baidu.com/s/1zvF7ayd0qcG_rNaWqRm5LQ)
 
-* **New** 物品分类增加一个“混杂*真”，以解决原版WE“混杂”分类有错误的bug
-* **Chg** 编译日志更加友好
-* **Chg** 继续使用`Detours`库
-* **Chg** 对新版本调试器的若干支持
-* **Chg** 未知UI只会保留最后一次的结果
-* **Fix** 修正识别未知UI失效的问题
-* **Fix** 修正1.20生成的逆天代码有错误的问题
-* **Fix** 修正几个slk优化的错误
-* **Fix** 修正物编读写的错误
+* **New** 支持打开和保存为Lni地图
+* **New** UTF8编码的中文路径文件不再会在保存后被丢弃
+* **New** 优化部分生成的Jass代码
+* **Chg** 逆天触发器/智能导入/预处理器不再会因为开启CJass而被禁用
+* **Chg** 删除了`开启逆天触发器`的配置(总是开启，不能关闭)
+* **Chg** 物编读写现在会显示更多的错误信息
+* **Fix** 修正中心计时器在1.20下无法保存的问题
+* **Fix** 修正中心计时器有些函数没有智能导入的问题
+* **Fix** 修正逆天数组变量的在逆天运行触发器使用无法保存的问题
+* **Fix** 修正逆天变量的在逆天运行触发器某些特殊情形下生成的代码不对的问题
+* **Fix** 修正Lua引擎日志库处理超长日志时会抛错误的问题
 
 #[1.31.8正式版](http://pan.baidu.com/s/1pLBeFrX)
 
@@ -58,4 +60,3 @@ footer: true
 
 * [历史版本](http://pan.baidu.com/share/link?shareid=401650&uk=3389291567)
 * [魔兽补丁](http://pan.baidu.com/share/link?shareid=401621&uk=3389291567)
-* [解压软件](http://sparanoid.com/lab/7z/)
