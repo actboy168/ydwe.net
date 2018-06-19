@@ -7,18 +7,19 @@ sharing: true
 footer: true
 ---
 
-#[1.32.6测试版](https://pan.baidu.com/s/1xo0-OpZ1v-YfxR46MkV_Ww)
+#[1.32.7测试版](https://pan.baidu.com/s/1zTobyXTfriycoByPEgjOqQ)
 
-* **New** 编译地图现在总是使用w3x2lni来打包地图
-* **New** 现在会检测不支持的魔兽版本
-* **Chg** UI 简化if-then的显示文本
-* **Chg** UI 收纳盒现在会生成正确的注释
-* **Chg** 移除配置中的兼容模式编译地图（总是被启用）
-* **Chg** 移除了CJass编译器
-* **Fix** 修正include路径计算错误的问题
-* **Fix** 修正几个代码生成的错误
-* **Fix** 修正Lni地图无法测试的问题
-* **Fix** 修正Lni地图不支持tga文件的问题
+* **New** 重写UI`创建永久性尸体`的实现
+* **New** 新的致谢GUI
+* **Chg** 优化泄漏检测报告的输出内容
+* **Chg** Lua引擎runtime库的version现在是ydwe版本的字符串
+* **Fix** 修正w3m和w3n文件无法保存的问题
+* **Fix** 修正某些情况下无法打包地图的问题
+* **Fix** 修正slk库读取空值会提示读取错误数据的BUG
+* **Fix** 修正物编读写有运行期错误时会影响下一次保存到问题
+* **Fix** 修正UI`等待条件成立`生成的代码不对的问题
+* **Fix** 修正启动局域网测试时有死循环的问题
+* **Fix** 修正局域网测试时，名字有空格或者|导致无法加入游戏的问题
 
 #[1.31.8正式版](http://pan.baidu.com/s/1pLBeFrX)
 
