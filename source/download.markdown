@@ -7,27 +7,18 @@ sharing: true
 footer: true
 ---
 
-#[1.32.7测试版](https://pan.baidu.com/s/1zTobyXTfriycoByPEgjOqQ)
 
-* **New** 重写UI`创建永久性尸体`的实现
-* **New** 新的致谢GUI
-* **Chg** 优化泄漏检测报告的输出内容
-* **Chg** Lua引擎runtime库的version现在是ydwe版本的字符串
-* **Fix** 修正w3m和w3n文件无法保存的问题
-* **Fix** 修正某些情况下无法打包地图的问题
-* **Fix** 修正slk库读取空值会提示读取错误数据的BUG
-* **Fix** 修正物编读写有运行期错误时会影响下一次保存到问题
-* **Fix** 修正UI`等待条件成立`生成的代码不对的问题
-* **Fix** 修正启动局域网测试时有死循环的问题
-* **Fix** 修正局域网测试时，名字有空格或者|导致无法加入游戏的问题
+#[1.32.8正式版](https://pan.baidu.com/s/195t4ghuH-utyQFd-rVlckA)
 
-#[1.31.8正式版](http://pan.baidu.com/s/1pLBeFrX)
-
-* **New** 物编读取可以从技能对象中读取code
-* **Chg** 物编读取会忽略lni文件
-* **Chg** 自动清理万能属性用的哈希表数据
-* **Fix** 修正物编提示会被逗号截断的问题
-* **Fix** 修正万能属性可能会导致slk优化后出错的问题
+* **New** 写物编支持新的api`permanent`可以永久保留生成的对象
+* **New** UI新增`单位到点的距离`和`单位到点的角度`
+* **Chg** 测试Lni地图可以直接slk，不再需要分为两步
+* **Chg** UI`夜天自定义代码`加入`不推荐使用`分类
+* **Chg** UI`夜天运行计时器`加入`不推荐使用`分类
+* **Chg** UI`[AI]`分类已经并入`[系统]`分类
+* **Chg** 调整逆天UI显示文本
+* **Chg** 调整创建单位和点相关的UI显示文件以及位置
+* **Fix** 修正Lua引擎slk库get_id函数丢失的问题
 
 
 #[W3x2Lni v2.4.0](https://pan.baidu.com/s/1EZ95ZiH45qQ6nr9pgZmX3g)
