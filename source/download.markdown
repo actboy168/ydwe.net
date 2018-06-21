@@ -8,20 +8,22 @@ footer: true
 ---
 
 
-#[1.32.8正式版](https://pan.baidu.com/s/195t4ghuH-utyQFd-rVlckA)
+#[1.32.9正式版](https://pan.baidu.com/s/1NLoVr_uvHUyA01sq1STcwQ)
 
-* **New** 写物编支持新的api`permanent`可以永久保留生成的对象
-* **New** UI新增`单位到点的距离`和`单位到点的角度`
-* **Chg** 测试Lni地图可以直接slk，不再需要分为两步
-* **Chg** UI`夜天自定义代码`加入`不推荐使用`分类
-* **Chg** UI`夜天运行计时器`加入`不推荐使用`分类
-* **Chg** UI`[AI]`分类已经并入`[系统]`分类
-* **Chg** 调整逆天UI显示文本
-* **Chg** 调整创建单位和点相关的UI显示文件以及位置
-* **Fix** 修正Lua引擎slk库get_id函数丢失的问题
+* **Chg** 简化UI`获取自定义值`的文本
+* **Chg** 保存地图时会调用地图插件
+* **Fix** 修正测试前slk优化有处理得不对的问题
+* **Fix** 修正Lni地图测试时会打包两遍的问题
+* **Fix** 修正打开Lni地图会导入无用文件的问题
+* **Fix** 修正测试前Slk地图插件声明的引用失效的问题
 
 
-#[W3x2Lni v2.4.0](https://pan.baidu.com/s/1EZ95ZiH45qQ6nr9pgZmX3g)
+#[W3x2Lni v2.4.1](https://pan.baidu.com/s/1b2-wkMY2Mv73njl3sIfk8A)
+
+* **FIX** 修正插件的on_mark事件失效的问题
+* **FIX** 修正lni转obj会导入多余文件的问题
+    
+#[W3x2Lni v2.4.0]
 
 * **NEW** lni支持导出文件名带有非法符号的文件
 * **CHG** 优化转换流程，减少内存占用,
