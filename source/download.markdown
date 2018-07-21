@@ -8,21 +8,27 @@ footer: true
 ---
 
 
-#[1.32.9正式版](https://pan.baidu.com/s/1NLoVr_uvHUyA01sq1STcwQ)
+#[1.32.10正式版](https://pan.baidu.com/s/10U-RwwQvZt0g88fGiJJgmg)
 
-* **Chg** 简化UI`获取自定义值`的文本
-* **Chg** 保存地图时会调用地图插件
-* **Fix** 修正测试前slk优化有处理得不对的问题
-* **Fix** 修正Lni地图测试时会打包两遍的问题
-* **Fix** 修正打开Lni地图会导入无用文件的问题
-* **Fix** 修正测试前Slk地图插件声明的引用失效的问题
+* **Chg** 升级Lua到5.3.5
+* **Chg** 带索引的数据写入非table的值时，会写入第一级
+* **Fix** 修正打开的Lni地图中的数组变量变成常量的BUG
+* **Fix** 修正导入外部文件错误的问题
+* **Fix** 修正UI`发布'全部卸载'命令`不对的问题
+* **Fix** 修正UI`判断触发的事件`无法判断对话框被点击的问题
+* **Fix** 修正slk时公式计算的误差问题
 
 
-#[W3x2Lni v2.4.1](https://pan.baidu.com/s/1b2-wkMY2Mv73njl3sIfk8A)
+#[W3x2Lni v2.4.2](https://pan.baidu.com/s/1oQVBAlLm6kOEdXFwifCklA)
+
+* **FIX** 修正lni转obj后数组变量识别为常量的问题
+* **FIX** 修正slk时公式计算的误差问题
+
+#[W3x2Lni v2.4.1]
 
 * **FIX** 修正插件的on_mark事件失效的问题
 * **FIX** 修正lni转obj会导入多余文件的问题
-    
+
 #[W3x2Lni v2.4.0]
 
 * **NEW** lni支持导出文件名带有非法符号的文件
