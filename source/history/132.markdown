@@ -1,0 +1,16 @@
+---
+layout: page
+title: "YDWE 1.32"
+date: 2018-09-27 07:53:18 +0000
+comments: true
+sharing: true
+footer: true
+---
+
+#[1.32.11正式版](https://pan.baidu.com/s/11Kpsv_-ZmIS8w_X7wM8voQ)
+
+* **Fix** 修正Lua加载模块错误的信息是乱码的问题
+* **Fix** 修正Lua引擎slk库在中文路径下加载失败的问题
+* **Fix** 修正slk优化不支持8进制整数的问题
+* **Fix** 修正地图打包会受到lua环境变量影响的问题
+* **Fix** 修正Lni地图同时存在新旧版本的触发文件时错误的问题
