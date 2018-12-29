@@ -8,20 +8,17 @@ footer: true
 ---
 
 
-#[1.32.12正式版](https://pan.baidu.com/s/1nWl1RF7kTu8WnYOI4eXkRw)
+#[1.32.13正式版](https://pan.baidu.com/s/13StT9NilsiuuKV-W8WcGDA)
 
-* **Chg** 识别未知UI新增一个规则，以改进某些地图无法识别的问题
-* **Fix** 修正中心计时器有些函数没有智能导入的问题
-* **Fix** 修正读写物编的内存泄漏
-* **Fix** 修正Lua引擎debug库某些情况下崩溃的问题
-* **Fix** 修正泄露检查库某些情况下崩溃的问题
-* **Fix** 修正slk优化的几个bug
+* **Fix** 配置程序崩溃的问题
+* **Fix** 修正w3x2lni的bug(六个)
 
-#[W3x2Lni v2.4.3](https://pan.baidu.com/s/1Vli7MZiAm4rgWmFmlOxbuw)
+#[W3x2Lni v2.4.7](https://pan.baidu.com/s/1hDBLSyJzL9IFr5BlRoQ0OA)
 
-* **CHG** lni时清理输出目录的多余文件
-* **FIX** 修正无法识别脚本中8进制整数的问题
-* **FIX** 修正会被环境变量影响的问题
+* **FIX** 修正特定情况下的运行时错误
+* **FIX** 修正特定物编ID会使slk后的地图崩溃的问题
+* **FIX** 修正物编中的垃圾数据会导致转换失败的问题
+* **FIX** 修正某些地图脚本解析错误的问题
 
 ---
 
