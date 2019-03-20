@@ -13,12 +13,18 @@ footer: true
 * **Fix** 配置程序崩溃的问题
 * **Fix** 修正w3x2lni的bug(六个)
 
-#[W3x2Lni v2.4.7](https://pan.baidu.com/s/1hDBLSyJzL9IFr5BlRoQ0OA)
+#[W3x2Lni v2.5.0](https://pan.baidu.com/s/13ky0epBuiULn-Uorbb5dPw)
 
-* **FIX** 修正特定情况下的运行时错误
-* **FIX** 修正特定物编ID会使slk后的地图崩溃的问题
-* **FIX** 修正物编中的垃圾数据会导致转换失败的问题
-* **FIX** 修正某些地图脚本解析错误的问题
+提取码: d5pf
+
+* **NEW'** 增加额外检查选项
+* **CHG'** 更换 Lua5.3 为 Lua5.4
+* **CHG'** 更换 lpeg 为 lpeglabel
+* **CHG'** 高级Lni语法大幅度修改,基础部分没有影响
+* **CHG'** 优化装饰物改为优化装饰物与可破坏物
+* **FIX'** 修正实数在转换过程中产生的误差
+* **FIX'** 修正报告页面显示的问题
+* **FIX'** 修正错误的公式可能导致转换出错的问题
 
 ---
 
