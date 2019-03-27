@@ -13,7 +13,7 @@ footer: true
 * **Fix** 配置程序崩溃的问题
 * **Fix** 修正w3x2lni的bug(六个)
 
-#[W3x2Lni v2.5.0](https://pan.baidu.com/s/1JULBaF25Kw_6pSzeZM2xYQ)
+#[W3x2Lni v2.5.1](https://pan.baidu.com/s/1JULBaF25Kw_6pSzeZM2xYQ)
 
 提取码: xh49
 
