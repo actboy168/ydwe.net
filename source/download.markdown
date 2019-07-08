@@ -13,13 +13,15 @@ footer: true
 * **Fix** 配置程序崩溃的问题
 * **Fix** 修正w3x2lni的bug(六个)
 
-#[W3x2Lni v2.5.1](https://pan.baidu.com/s/1JULBaF25Kw_6pSzeZM2xYQ)
+#[W3x2Lni v2.5.2](https://pan.baidu.com/s/1Fdr-rTZXWUQVMOIV1hS50Q)
 
-提取码: xh49
+提取码: ya54
 
-* **FIX** 修正提取魔兽数据失败的问题
-* **FIX** 修正转换触发器失败的问题
-* **FIX** 修正垃圾数据的识别问题
+* **FIX** 修正插件加载错误没有任何提示的问题
+* **FIX** 修正slk后全局变量丢失constant属性的问题
+* **FIX** 修正slk后id冲突的对象表现错误的问题
+* **FIX** 修正slk后id以“]”结尾的对象出错的问题
+* **FIX** 修正slk时可转为数字的字符串没有处理的问题
 
 ---
 
